@@ -1,0 +1,542 @@
+body{
+    background: linear-gradient(135deg, #504a4a, #332d2f);
+    height: 3000px;
+}
+
+@font-face{
+    font-family: William;
+    src: url(William/William.ttf);
+}
+.txtportfolio{
+    position: absolute;
+    color: #332d2f;
+    font-family: William;
+    font-size: 50px;
+    z-index: 3;
+}
+.divtxtportfolio{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    margin-top: calc(100vh - 73px);
+    margin-left: 20px;
+    opacity: 1;
+    overflow: hidden;
+    z-index: 5;
+}
+.logo2{
+    position: absolute;
+    color: white;
+    font-family: Heart;
+    margin-left: calc(50vw - 48px);
+    margin-top: 55px;
+    font-size: 40px
+}
+.logo3{
+    position: absolute;
+    color: white;
+    font-family: Heart;
+    margin-left: calc(50vw - 136px);
+    margin-top: 60px;
+    font-size: 90px
+}
+
+.circle{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: white;
+    border-radius: 50%;
+    margin-left: calc(50vw - 254px);
+    margin-top: calc(50vh - 254px);
+    opacity: 1;
+    z-index: 2;
+}
+.line{
+    position: absolute;
+    width: 100%;
+    height: 77px;
+    margin-top: calc(100vh - 77px);
+    margin-left: -8px;
+    background: white;
+    
+}
+
+.txtsites{
+    position: absolute;
+    color: #f0c39a;
+    font-family: ;
+    font-size: 30px;
+    margin-top: calc(100vh + 40px);
+    margin-left: 100px;
+    opacity: 1;
+}
+/*Site One*/
+.siteone{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+    margin-top: calc(150vh - 200px);
+    margin-left: 100px;
+    overflow: hidden;
+}
+.shadowsiteone{ 
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-left: 5px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 0 15px;
+    margin-top: 245px;
+    margin-left: 10px;
+    -webkit-filter: blur(10px);
+    transition-duration: .3s;
+}
+.bgsiteone{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #332d2f, #1a1718 70%);
+    opacity: 0;
+    transition-duration: .5s;
+}
+.namesiteoneafter1{
+    position: absolute;
+    color: white;
+    font-family: ;
+    font-size: 50px;
+    margin-top: 34px;
+    margin-left: 34px;
+    opacity: 0;
+    transition-duration: .7s;
+}
+.namesiteoneafter2{
+    position: absolute;
+    color: white;
+    font-family: ;
+    font-size: 15px;
+    margin-top: 80px;
+    margin-left: 37px;
+    opacity: 0;
+    transition-duration: .7s;
+}
+.viewsiteone{
+    position: absolute;
+    width: 100px;
+    height: 33px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+    margin-left: 50px;
+    opacity: 0;
+    transition-duration: .7s;
+    overflow: hidden;
+}
+.txtviewsiteone{
+    position: absolute;
+    color: #332d2f;
+    font-family: ;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 26px;
+    opacity: 1;
+}
+.aboutsiteone{
+    position: absolute;
+    width: 94px;
+    height: 27px;
+    border: 2px white solid;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 237px;
+    margin-left: 50px;
+    opacity: 0;
+    transition-duration: .9s;
+}
+.txtaboutsiteone{
+    position: absolute;
+    color: white;
+    font-family: ;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 22px;
+}
+
+.siteone:hover .bgsiteone{
+    opacity: .7;
+}
+.siteone:hover .viewsiteone{
+    opacity: 1;
+}
+.siteone:hover .aboutsiteone{
+    opacity: 1;
+}
+.siteone:hover .namesiteoneafter1{
+    opacity: 1;
+}
+.siteone:hover .namesiteoneafter2{
+    opacity: .6;
+}
+/*Site Two*/
+.sitetwo{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+    margin-top: calc(150vh - 200px);
+    margin-left: 400px;
+    overflow: hidden;
+}
+.shadowsitetwo{ 
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-left: 5px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 0 15px;
+    margin-top: 245px;
+    margin-left: 10px;
+    -webkit-filter: blur(10px);
+    transition-duration: .3s;
+}
+.bgsitetwo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #332d2f, #1a1718 70%);
+    opacity: 0;
+    transition-duration: .5s;
+}
+.namesitetwoafter1{
+    position: absolute;
+    color: white;
+    font-family: ;
+    font-size: 40px;
+    margin-top: 34px;
+    margin-left: 34px;
+    opacity: 0;
+    transition-duration: .7s;
+}
+.namesitetwoafter2{
+    position: absolute;
+    color: white;
+    font-family: ;
+    font-size: 30px;
+    margin-top: 65px;
+    margin-left: 67px;
+    opacity: 0;
+    transition-duration: .7s;
+}
+.viewsitetwo{
+    position: absolute;
+    width: 100px;
+    height: 33px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+    margin-left: 50px;
+    opacity: 0;
+    transition-duration: .7s;
+    overflow: hidden;
+}
+.txtviewsitetwo{
+    position: absolute;
+    color: #332d2f;
+    font-family: ;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 26px;
+    opacity: 1;
+}
+.aboutsitetwo{
+    position: absolute;
+    width: 94px;
+    height: 27px;
+    border: 2px white solid;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 237px;
+    margin-left: 50px;
+    opacity: 0;
+    transition-duration: .9s;
+}
+.txtaboutsitetwo{
+    position: absolute;
+    color: white;
+    font-family: ;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 22px;
+}
+
+.sitetwo:hover .bgsitetwo{
+    opacity: .7;
+}
+.sitetwo:hover .viewsitetwo{
+    opacity: 1;
+}
+.sitetwo:hover .aboutsitetwo{
+    opacity: 1;
+}
+.sitetwo:hover .namesitetwoafter1{
+    opacity: 1;
+}
+.sitetwo:hover .namesitetwoafter2{
+    opacity: .6;
+}
+/*Site Three*/
+.sitethree{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+    margin-top: calc(150vh - 200px);
+    margin-left: 700px;
+    overflow: hidden;
+}
+.shadowsitethree{ 
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-left: 5px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 0 15px;
+    margin-top: 245px;
+    margin-left: 10px;
+    -webkit-filter: blur(10px);
+    transition-duration: .3s;
+}
+.bgsitethree{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #332d2f, #1a1718 70%);
+    opacity: 0;
+    transition-duration: .5s;
+}
+.namesitethreeafter1{
+    position: absolute;
+    color: white;
+    font-family: ;
+    font-size: 40px;
+    margin-top: 34px;
+    margin-left: 34px;
+    opacity: 0;
+    transition-duration: .7s;
+}
+.namesitethreeafter2{
+    position: absolute;
+    color: white;
+    font-family: ;
+    font-size: 30px;
+    margin-top: 65px;
+    margin-left: 67px;
+    opacity: 0;
+    transition-duration: .7s;
+}
+.viewsitethree{
+    position: absolute;
+    width: 100px;
+    height: 33px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+    margin-left: 50px;
+    opacity: 0;
+    transition-duration: .7s;
+    overflow: hidden;
+}
+.txtviewsitethree{
+    position: absolute;
+    color: #332d2f;
+    font-family: ;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 26px;
+    opacity: 1;
+}
+.aboutsitethree{
+    position: absolute;
+    width: 94px;
+    height: 27px;
+    border: 2px white solid;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 237px;
+    margin-left: 50px;
+    opacity: 0;
+    transition-duration: .9s;
+}
+.txtaboutsitethree{
+    position: absolute;
+    color: white;
+    font-family: ;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 22px;
+}
+
+.sitethree:hover .bgsitethree{
+    opacity: .7;
+}
+.sitethree:hover .viewsitethree{
+    opacity: 1;
+}
+.sitethree:hover .aboutsitethree{
+    opacity: 1;
+}
+.sitethree:hover .namesitethreeafter1{
+    opacity: 1;
+}
+.sitethree:hover .namesitethreeafter2{
+    opacity: .6;
+}
+
+/*Site four*/
+.sitefour{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+    margin-top: calc(150vh - 200px);
+    margin-left: 1000px;
+    overflow: hidden;
+}
+.shadowsitefour{ 
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-left: 5px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 0 15px;
+    margin-top: 245px;
+    margin-left: 10px;
+    -webkit-filter: blur(10px);
+    transition-duration: .3s;
+}
+.bgsitefour{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #332d2f, #1a1718 70%);
+    opacity: 0;
+    transition-duration: .5s;
+}
+.namesitefourafter1{
+    position: absolute;
+    color: white;
+    font-family: ;
+    font-size: 40px;
+    margin-top: 34px;
+    margin-left: 34px;
+    opacity: 0;
+    transition-duration: .7s;
+}
+.namesitefourafter2{
+    position: absolute;
+    color: white;
+    font-family: ;
+    font-size: 30px;
+    margin-top: 65px;
+    margin-left: 67px;
+    opacity: 0;
+    transition-duration: .7s;
+}
+.viewsitefour{
+    position: absolute;
+    width: 100px;
+    height: 33px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+    margin-left: 50px;
+    opacity: 0;
+    transition-duration: .7s;
+    overflow: hidden;
+}
+.txtviewsitefour{
+    position: absolute;
+    color: #332d2f;
+    font-family: ;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 26px;
+    opacity: 1;
+}
+.aboutsitefour{
+    position: absolute;
+    width: 94px;
+    height: 27px;
+    border: 2px white solid;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 237px;
+    margin-left: 50px;
+    opacity: 0;
+    transition-duration: .9s;
+}
+.txtaboutsitefour{
+    position: absolute;
+    color: white;
+    font-family: ;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 22px;
+}
+
+.sitefour:hover .bgsitefour{
+    opacity: .7;
+}
+.sitefour:hover .viewsitefour{
+    opacity: 1;
+}
+.sitefour:hover .aboutsitefour{
+    opacity: 1;
+}
+.sitefour:hover .namesitefourafter1{
+    opacity: 1;
+}
+.sitefour:hover .namesitefourafter2{
+    opacity: .6;
+}
+
+.toright{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+    transform: rotateZ(225deg);
+    margin-top: calc(150vh - 61px);
+    margin-left: 1256px;
+    transition-duration: .3s;
+    opacity: .3
+}
+
+.txtphotowithme{
+    position: absolute;
+    color: #f0c39a;
+    font-family: ;
+    font-size: 30px;
+    margin-top: calc(100vh + 470px);
+    margin-left: 100px;
+    opacity: 1;
+}
