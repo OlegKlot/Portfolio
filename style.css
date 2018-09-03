@@ -83,6 +83,16 @@ body{
     margin-left: 100px;
     overflow: hidden;
 }
+.logositeone{
+    position: absolute;
+    background: ;
+    background-size: 25px 63px;
+    font-family: ;
+    font-size: 45px;
+    margin-top: calc(150px - 26.5px);
+    margin-left: calc(100px - 11.25px);
+    animation: logositeone 10s 0s infinite;
+}
 .shadowsiteone{ 
     position: absolute;
     display: block;
@@ -181,6 +191,30 @@ body{
 }
 .siteone:hover .namesiteoneafter2{
     opacity: .6;
+}
+.siteone:hover .logositeone{
+    opacity: .5;
+}
+
+@keyframes logositeone{
+    0%{
+        background-image: linear-gradient(45deg, #141414, #e0e0e0, #141414);
+        background-position: 0px 12px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    50%{
+        background-image: linear-gradient(45deg, #141414, #e0e0e0, #141414);
+        background-position: 0px -22px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        background-image: linear-gradient(45deg, #141414, #e0e0e0, #141414);
+        background-position: 0px 12px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 /*Site Two*/
 .sitetwo{
@@ -540,3 +574,13 @@ body{
     margin-left: 100px;
     opacity: 1;
 }
+
+/*.lineforsize{
+    position: absolute;
+    background: black;
+    width: 92px;
+    height: 29px;
+    margin-top: 900;
+    margin-left: 209px;
+    z-index: 1000;
+}*/
