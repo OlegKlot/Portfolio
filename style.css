@@ -194,6 +194,7 @@ body{
 }
 .siteone:hover .logositeone{
     opacity: .5;
+    transition-duration: .5s;
 }
 
 @keyframes logositeone{
