@@ -61,6 +61,16 @@ body{
     background: white;
     
 }
+.photo{
+    position: absolute;
+    width: 800px;
+    height: 700px;
+    background-image: url(PicsArt_09-06-10.23.38.png);
+    background-size: 100% auto;
+    margin-top: -58px;
+    margin-left: 300px;
+    z-index: 1000;
+}
 
 .txtsites{
     position: absolute;
@@ -603,6 +613,7 @@ body{
     background: white;
     margin-top: 5px;
     margin-left: 30px;
+    animation: circleforlogoinstagram 3s infinite;
 }
 .bglogoinstagram{
     position: absolute;
@@ -613,8 +624,79 @@ body{
     transition-duration: .5s;
 }
 
+.comingsoononephoto{
+    position: absolute;
+    font-family: ;
+    font-size: 30px;
+    color: white;
+    margin-top: 1300px;
+    margin-left: calc(50vw - 125px);
+    opacity: .5;
+}
+.comingsoontwophoto{
+    position: absolute;
+    font-family: ;
+    font-size: 20px;
+    color: white;
+    margin-top: 1340px;
+    margin-left: calc(50vw - 85px);
+    opacity: .25;
+}
+
 .logoinstagram:hover .bglogoinstagram{
     opacity: .15;
+}
+
+@keyframes circleforlogoinstagram{
+    0%{
+        width: 5px;
+        height: 5px;
+        background: white;
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+    25%{
+        width: 0px;
+        height: 0px;
+        background: white;
+        margin-top: 7.5px;
+        margin-left: 32.5px;
+    }
+    25.1%{
+        width: 0px;
+        height: 0px;
+        background: #f0c39a;
+        margin-top: 7.5px;
+        margin-left: 32.5px;
+    }
+    50%{
+        width: 15px;
+        height: 15px;
+        background: #f0c39a;
+        margin-top: 0px;
+        margin-left: 25px;
+    }
+    75%{
+        width: 0px;
+        height: 0px;
+        background: #f0c39a;
+        margin-top: 7.5px;
+        margin-left: 32.5px;
+    }
+    75.1%{
+        width: 0px;
+        height: 0px;
+        background: white;
+        margin-top: 7.5px;
+        margin-left: 32.5px;
+    }
+    100%{
+        width: 5px;
+        height: 5px;
+        background: white;
+        margin-top: 5px;
+        margin-left: 30px;
+    }
 }
 
 /*.lineforsize{
