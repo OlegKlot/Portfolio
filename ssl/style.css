@@ -5,7 +5,7 @@
     background-color: black;
     margin-top: -8px;
     margin-left: -8px;
-    opacity: .3;
+    opacity: .2;
 }
 .b1{
     position: absolute;
@@ -13,7 +13,7 @@
     height: 812px;
     background-color: white;
     border-radius: 50px;
-    box-shadow: 50px 50px 50px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
     margin-top: calc(-8px + 100px);
     margin-left: calc(-8px + 200px);
     overflow: hidden;
@@ -24,7 +24,7 @@
     height: 812px;
     background-color: white;
     border-radius: 50px;
-    box-shadow: 50px 50px 50px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
     margin-top: calc(-8px + 100px);
     margin-left: calc(-8px + 400px + 375px);
     overflow: hidden;
@@ -32,12 +32,12 @@
 .linemenu{
     position: absolute;
     width: 150px;
-    height: 4px;
+    height: 4.5px;
     border-radius: 2px;
-    background-color: black;
-    margin-top: 748px;
+    background-color: #333333;
+    margin-top: 790px;
     margin-left: calc(375px / 2 - 75px);
-    opacity: .3;
+    opacity: .7;
 }
 .lineofmenu1{
     position: absolute;
@@ -68,4 +68,160 @@
     margin-top: 60px;
     margin-left: 50px;
     opacity: .5;
+}
+.nameofpage{
+    position: absolute;
+    font-size: 24px;
+    font-family: 'Baloo Da', cursive;
+    margin-top: 90px;
+    margin-left: 50px;
+    opacity: .4;
+}
+.nameofsubj{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Baloo Da', cursive;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+.bgforendpage1{
+    position: absolute;
+    width: 375px;
+    height: 50px;
+    background-color: white;
+    border-radius: 0 0 0 50px;
+    margin-top: 500px;
+    z-index: 2;
+}
+.bgforendpage2{
+    position: absolute;
+    width: 375px;
+    height: 200px;
+    background-color: black;
+    border-radius: 0 0 0 50px;
+    margin-top: 500px
+}
+.bgforendpage3{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background-color: #333333;
+    border-radius: 30px;
+    margin-top: 575px;
+    margin-left: 25px;
+}
+.bgforendpage4{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background-color: #333333;
+    border-radius: 30px;
+    margin-top: 575px;
+    margin-left: 200px;
+}
+.bdp, .bda{
+    position: absolute;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Baloo Da';
+    color: white;
+    margin-top: 15px;
+}
+.upload2{
+    position: absolute;
+    width: 375px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 600px;
+}
+.more{
+    position: absolute;
+    width: 375px;
+    font-size: 27px;
+    text-align: center;
+    font-family: 'Baloo Da', cursive;
+    margin-top: 480px;
+    z-index: 3;
+}
+.photo1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 250px;
+    margin-left: 50px;
+    opacity: .1;
+}
+.photo2{
+    position: absolute;
+    width: 105px;
+    height: 200px;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 250px;
+    margin-left: 220px;
+    opacity: .1;
+}
+.photo3{
+    position: absolute;
+    width: 150px;
+    height: 180px;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 420px;
+    margin-left: 50px;
+    opacity: .1;
+}
+.photo4{
+    position: absolute;
+    width: 105px;
+    height: 130px;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 470px;
+    margin-left: 220px;
+    opacity: .1;
+}
+.photo5{
+    position: absolute;
+    width: 275px;
+    height: 80px;
+    background: linear-gradient(black, white 120%);
+    border-radius: 30px 30px 0 0 ;
+    margin-top: 620px;
+    margin-left: 50px;
+    opacity: .1;
+}
+.photo6{
+    position: absolute;
+    width: 275px;
+    height: 70px;
+    background: linear-gradient(0deg, black, white 120%);
+    border-radius: 0 0 30px 30px;
+    margin-top: 250px;
+    margin-left: 50px;
+    opacity: .1;
+}
+.photo7{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 340px;
+    margin-left: 50px;
+    opacity: .1;
+}
+.photo8{
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 340px;
+    margin-left: 170px;
+    opacity: .1;
 }
